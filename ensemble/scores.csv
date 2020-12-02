@@ -1,0 +1,16 @@
+File,Score
+dtSuggestions.csv, 0.79525
+gbt_tuned_Suggestions.csv, 0.84380
+gbtSuggestions.csv, 0.84380
+matrixFact_10.csv, 0.66494
+matrixFact_20.csv, 0.67606
+rf_tuned_Suggestions.csv, 0.84380
+rfSuggestions.csv, 0.86694
+userSuggestions_00.csv, 0.86891
+userSuggestions_02.csv, 0.86691
+userSuggestions_03.csv, 0.86911
+userSuggestions_04.csv, 0.86933
+userSuggestions_05.csv, 0.86933
+userSuggestions_06.csv, 0.86936
+weightAvg_logit_Suggestions.csv, 0.78016
+
