@@ -1,0 +1,7 @@
+# Method 2 File Descriptions
+
+`Predictor_Generation.ipynb`is the same notebook that is used in Method 1 to generate the predictor matrix for training the logistic regression, decision trees, random forest, and gradient boosted tree models. We also added additional features focused on the genre ratings. This included the number of genres for a particular track and the max, min, mean, median, and variance of the genre scores. Using this along with the album and artists scores proved to give us much better overall results.
+
+`Test_Set_Generation.ipynb`follows a similar setup as `Predictor_Generation.ipynb` accept it is designed to create a test data matrix the same feature columns mentioned previously. Due to memory constraints, this file had to be run 4 times in order to generate the 120,000 line file. We manually set which group of Users we were going to look at to generate each consecutive feature set for the test samples. We then appended the results to the same file so that we could pass a single dataset into the classifiers contained in the third and final notebook. 
+
+`Method_2_Classifiers.ipynb` fits the predictor matrix to the various models in a similar fashion to what is done in method 1. However, rather than using a weight vector to generate our recommendations, we pass the test set matrix from the previous notebook into the models and look at the raw predictions that a track is recommended to determine our top 3 recommendations. 
